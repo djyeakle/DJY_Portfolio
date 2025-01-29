@@ -1,0 +1,61 @@
+.form-container form {
+    display: inline-block;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: white;
+    border-radius: 10%;
+    font-family: "Kantumruy Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: black;
+    color: #9ED8CE;
+    border-color: white;
+}
+
+body {
+    background-color: #CEF0EA;
+}
+
+header {
+    background-color: #9ED8CE;
+    padding: 20px;
+}
+
+footer {
+    background-color: #9ED8CE;
+}
+
+h1 {
+    font-family: "Kantumruy Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Kantumruy Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+}
+
+.aboutp {
+    text-align: center;
+    margin-right: 750px;
+    font-family: "Kantumruy Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 17px;
+}
