@@ -1,0 +1,89 @@
+.form-container form {
+    display: inline-block;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: white;
+    border-radius: 10%;
+    font-family: "Kantumruy Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: black;
+    color: #9ED8CE;
+    border-color: white;
+}
+
+body {
+    background-color: #CEF0EA;
+}
+
+header {
+    background-color: #9ED8CE;
+    padding: 20px;
+}
+
+footer {
+    background-color: #9ED8CE;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Kantumruy Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+.winery {
+    margin-left: 60px;
+    border: 3px solid black;
+}
+
+.winerycap {
+    margin-left: 260px;
+}
+
+.winerycap2 {
+    margin-left: 390px;
+}
+
+.firstWorks {
+    display: flex;
+    padding: 20px;
+}
+
+.thai {
+    margin-left: 100px;
+    border: 3px solid black;
+}
+
+.captions {
+    display: flex;
+}
+
+.berry {
+    margin-left: 90px;
+    border: 3px solid black;
+}
+
+.berrycap {
+    margin-left: 150px;
+}
+
+.port {
+    margin-left: 130px;
+    border: 3px solid black;
+}
+
+.portcap2 {
+    margin-left: 320px;
+}
