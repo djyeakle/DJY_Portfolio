@@ -41,3 +41,15 @@ h1 {
     font-size: 50px;
     text-align: center;
 }
+
+.resume {
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: white;
+    padding: 30px;
+}
+
+footer {
+    background-color: #9ED8CE;
+    text-align: center;
+}

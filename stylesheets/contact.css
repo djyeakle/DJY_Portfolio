@@ -41,3 +41,30 @@ h1 {
     font-size: 50px;
     text-align: center;
 }
+
+.linkedin {
+    border-radius: 10%;
+    height: 100px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.handshake {
+    border-radius: 10%;
+    height: 100px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.email {
+    border-radius: 10%;
+    height: 100px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #9ED8CE;
+    text-align: center;
+}
+

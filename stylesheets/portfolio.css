@@ -46,6 +46,7 @@ h1 {
 .winery {
     margin-left: 60px;
     border: 3px solid black;
+    cursor: pointer;
 }
 
 .winerycap {
@@ -64,6 +65,7 @@ h1 {
 .thai {
     margin-left: 100px;
     border: 3px solid black;
+    cursor: pointer;
 }
 
 .captions {
@@ -73,6 +75,7 @@ h1 {
 .berry {
     margin-left: 90px;
     border: 3px solid black;
+    cursor: pointer;
 }
 
 .berrycap {
@@ -86,4 +89,15 @@ h1 {
 
 .portcap2 {
     margin-left: 320px;
+}
+
+.classes {
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: white;
+    padding: 30px;
+}
+
+p {
+    font-weight: bold;
 }
