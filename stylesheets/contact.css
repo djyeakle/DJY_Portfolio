@@ -31,6 +31,7 @@ header {
 
 footer {
     background-color: #9ED8CE;
+    text-align: center;
 }
 
 h1 {
@@ -44,27 +45,33 @@ h1 {
 
 .linkedin {
     border-radius: 10%;
-    height: 100px;
+    height: 150px;
     margin: 20px;
     cursor: pointer;
 }
 
 .handshake {
     border-radius: 10%;
-    height: 100px;
+    height: 150px;
     margin: 20px;
     cursor: pointer;
 }
 
 .email {
     border-radius: 10%;
-    height: 100px;
+    height: 150px;
     margin: 20px;
     cursor: pointer;
 }
 
-footer {
-    background-color: #9ED8CE;
-    text-align: center;
+.github {
+    border-radius: 10%;
+    height: 150px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.container {
+    padding: 50px;
 }
 

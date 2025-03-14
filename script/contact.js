@@ -5,3 +5,7 @@ function linkedin() {
 function handshake() {
     window.open('https://app.joinhandshake.com/profiles/pmsjps', '_blank');
 }
+
+function github() {
+    window.open('https://github.com/djyeakle', '_blank');
+}
