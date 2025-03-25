@@ -9,3 +9,7 @@ function thai() {
 function berry() {
     window.open('https://watch.screencastify.com/v/SX9ZF9G16i5HuEtSpb5x', '_blank');
 }
+
+function closet() {
+    window.open('https://closetoutfitters.netlify.app/', '_blank');
+}

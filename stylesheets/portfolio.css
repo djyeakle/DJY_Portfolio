@@ -101,3 +101,17 @@ h1 {
 p {
     font-weight: bold;
 }
+
+.closet {
+    margin-left: 400px;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+.closetcap {
+    margin-left: 390px;
+}
+
+.closetins {
+    margin-left: 400px;
+}
