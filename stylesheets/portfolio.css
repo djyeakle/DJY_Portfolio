@@ -18,6 +18,7 @@ button:hover {
     background-color: black;
     color: #9ED8CE;
     border-color: white;
+    cursor: pointer;
 }
 
 body {
@@ -103,15 +104,25 @@ p {
 }
 
 .closet {
-    margin-left: 400px;
+    margin-left: 60px;
     border: 3px solid black;
     cursor: pointer;
 }
 
 .closetcap {
-    margin-left: 390px;
+    margin-left: 110px;
 }
 
 .closetins {
-    margin-left: 400px;
+    margin-left: 110px;
+}
+
+.market {
+    margin-left: 100px;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+.marketcap {
+    margin-left: 180px;
 }

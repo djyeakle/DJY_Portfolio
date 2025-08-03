@@ -13,3 +13,7 @@ function berry() {
 function closet() {
     window.open('https://closetoutfitters.netlify.app/', '_blank');
 }
+
+function market() {
+    window.open('https://therehobothmarket.com/', '_blank');
+}
