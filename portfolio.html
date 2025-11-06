@@ -10,11 +10,15 @@
     </head>
     <header>
         <div class="form-container">
+            <p class="myName">Delaney Yeakle</p>
             <form action="index.html">
                 <button type="submit">Home</button>
             </form>
+            <form action="about.html">
+                <button type="submit">About</button>
+            </form>
             <form action="portfolio.html">
-                <button type="submit">Portfolio</button>
+                <button type="submit" class="portfolio">Portfolio</button>
             </form>
             <form action="resume.html">
                 <button type="submit">Resume</button>
@@ -26,37 +30,39 @@
     </header>
     <body>
         <h1>My Projects</h1>
-        <hr>
-        <p>*Click Images to View Projects</p>
         <div class="firstWorks">
-            <img class="winery" src="./images/WineryVinnie.png" height="300px" onclick="vinnie()">
-            <img class="thai" src="./images/Thai.png" height="300px" onclick="thai()">
+            <img class="brewing" src="./images/brewing.png">
+            <img class="market" src="./images/market.png" onclick="market()">
         </div>
         <div class="captions">
-            <p class="winerycap">Winery Website - HTML and CSS</p>
-            <p class="winerycap2">Collaborative Thai Website - HTML, JavaScript and CSS</p>
+            <p class="cap">Tea Brewing App <br> HTML, CSS, JavaScript, Electron.js</p>
+            <p class="cap2">The Rehoboth Market <br> WordPress, Elementor, MailChimp, CSS</p>
         </div>
         <div class="firstWorks">
-            <img class="berry" src="./images/berryfulLife.png" height="300px" onclick="berry()">
-            <img class="port" src="./images/Port.png" height="300px">
+            <img class="closet" src="./images/Closet.png" onclick="closet()">
+            <img class="globe" src="./images/globe.png" onclick="globe()">
         </div>
         <div class="captions">
-            <p class="berrycap">Berryful Life Basic Video Game - GameMaker Studio and Aseprite</p>
-            <p class="portcap2">This Website! - HTML, JavaScript and CSS</p>
+            <p class="cap3">Closet Website <br> HTML, CSS, JavaScript, PostgreSQL, Postman, Render</p>
+            <p class="cap4">The Globe <br> WordPress, SNO Sites, CSS</p>
         </div>
         <div class="firstWorks">
-            <img class="closet" src="./images/Closet.png" height="300px" onclick="closet()">
-            <img class="market" src="./images/market.png" height="300px" onclick="market()">
+            <img class="thai" src="./images/Thai.png" onclick="thai()">
+            <img class="winery" src="./images/WineryVinnie.png" onclick="winery()">
         </div>
         <div class="captions">
-            <p class="closetcap">Clothing Tracker - HTML, CSS, JavaScript, Netlify, PostgreSQL, and Render</p>
-            <p class="marketcap">The Rehoboth Market - WordPress, CSS, MailChimp, and Elementor</p>
+            <p class="cap5">Thai Restaurant <br> HTML, CSS, JavaScript, Netlify</p>
+            <p class="cap6">Winery Website <br> HTML, CSS, JavaScript, Netlify</p>
+        </div>
+        <div class="firstWorks">
+            <img class="berry" src="./images/berryfulLife.png" onclick="berry()">
+            <img class="port" src="./images/Port.png">
         </div>
         <div class="captions">
-            <p class="closetins">Login for testing: AccountID = 1, Username = djyeakle, Password = vbnmrno4</p>
+            <p class="cap7">Berryful Life <br> GameMaker Studio, Aseprite, C#</p>
+            <p class="cap8">This Website <br> HTML, CSS, JavaScript, Netlify</p>
         </div>
-        <br>
-        <hr>
+        <hr class="horLine">
         <h1>Relevant Courses</h1>
         <br>
         <div class="classes">
@@ -66,7 +72,7 @@
                 a key part of the course.</li>
             <li>Worked with: MySQLWorkbench</li>
         </ul>
-
+        <br>
         <p>CMPS 161 - Networking and Security</p>
         <ul>
             <li>This course introduces basic networking and security concepts. It serves as a precursor to the more advanced and
@@ -74,14 +80,14 @@
                 of hardware and software use in modern networks.</li>
             <li>Worked with: Wireshark</li>
         </ul>
-
+        <br>
         <p>CMPS 162 - Introduction to Programming</p>
         <ul>
             <li>This course introduces basic programming concepts. Hands on programming will be a key part of the course. The
                 course is designed to teach and reinforce basic programming techniques and strategies.</li>
             <li>Worked with: HTMl, JavaScript, CSS, and Visual Studio Code</li>
         </ul>
-
+        <br>
         <p>CMPS 163 - Business Analytics</p>
         <ul>
             <li>This course will provide you with concepts and tools to utilize data for making informed business decisions. We will
@@ -90,7 +96,7 @@
                 yourself with tools to apply these concepts in practice.</li>
             <li>Worked with: Excel</li>
         </ul>
-
+        <br>
         <p>CMPS 260 - Data Structures</p>
         <ul>
             <li>In this course fundamental data structures will be explored that are indispensable when programming. Some major
@@ -98,14 +104,14 @@
                 these data structures are also discussed.</li>
             <li>Worked with: Visual Studio Code</li>
         </ul>
-
+        <br>
         <p>CMPS 261 - Server Management</p>
         <ul>
             <li>In this course, students will learn how to administer a server. This ranges from installing an operating system, remotely
                 installing software packages through a package manager, configuring the system, managing security and encryption, backups, to shell scripting. A big component of this course is lab work. </li>
             <li>Worked with: UTM, FreeBSD, Unix, and Terminal</li>
         </ul>
-
+        <br>
         <p>CMPS 262 - Advanced Programming</p>
         <ul>
             <li>This course continues where CMPS 162 and CMPS 260 leave off. The focus will be on problem solving but with a
@@ -113,9 +119,26 @@
                 e.g., classes. Several advanced algorithms will be discussed and should be implemented by the students.</li>
             <li>Worked with: HTML, JavaScript, CSS, TypeScript, Bootstrap, Visual Studio Code, Netlify, Postman, PostgreSQL, PgAdmin4, and Render</li>
         </ul>
+        <br>
+        <p>CMPS 361 - Web Application Development</p>
+        <ul>
+            <li>This course will provide a foundation in several facets of establishing and maintaining a website. This includes 
+                the latest advances in client side as well as server side technologies. The goal is to have students design, 
+                implement, and run advanced web applications. It will also cover in some detail the protocols required for web 
+                development.</li>
+            <li>Worked with: PHP, HTML, JavaScript, CSS, Visual Studio Code, Postman, PostgreSQL, and PgAdmin4</li>
+        </ul>
+        <br>
+        <p>CMPS 363 - Digital Security</p>
+        <ul>
+            <li>This class will provide an overview of computer security. The concepts of security in the context of the digital 
+                world will be discussed. The nuts and bolts of threat prevention, detection and removal are discussed. The student 
+                will be required to use a lab environment to simulate troubleshooting, preventing and fixing problems.</li>
+            <li>Worked with: Amazon Web Services, OWASP Juice Shop Project, Snort, and Virtual Machine Windows 19</li>
+        </ul>
         </div>
     </body>
     <footer>
-        <p>© 2025 | Delaney Yeakle</p>
+        <p class="foot">© 2025 | Delaney Yeakle</p>
     </footer>
     </html>

@@ -1,4 +1,4 @@
-function vinnie() {
+function winery() {
     window.open('https://vvcmtwinery.netlify.app/', '_blank');
 }
 
@@ -16,4 +16,8 @@ function closet() {
 
 function market() {
     window.open('https://therehobothmarket.com/', '_blank');
+}
+
+function globe() {
+    window.open('https://ppuglobe.com/', '_blank');
 }
