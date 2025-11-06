@@ -1,0 +1,103 @@
+
+
+.form-container {
+    display: flex;
+}
+
+.about {
+    text-decoration: underline;
+}
+
+.about:hover {
+    text-decoration: none;
+}
+
+.myName {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 430px;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    margin-top: 60px;
+    padding: 0px 30px;
+    
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-color: #DCECE9;
+}
+
+h1 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 96px;
+    text-align: center;
+}
+
+.whiteRectangle {
+    height: 624px;
+    width: 795px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 150px;
+}
+
+.greenRectangle {
+    width: 606px;
+    height: 704px;
+    background-color: #90BAB3;
+    transform: rotate(-160deg);
+    border-radius: 5px;
+}
+
+.aboutImg {
+    object-fit: cover;
+    height: 407px;
+    width: 336px;
+    border-radius: 5px;
+    transform: rotate(160deg);
+    margin-top: 130px;
+    margin-left: 300px;
+}
+
+.blurb {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    transform: rotate(-200deg);
+    width: 373px;
+    text-align: left;
+    margin-top: -240px !important;
+    margin-left: -370px;
+}
+
+.foot {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    margin-left: 100px;
+    margin-top: 200px;
+}
