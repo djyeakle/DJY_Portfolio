@@ -1,71 +1,114 @@
-.form-container form {
-    display: inline-block;
-    padding: 10px;
+.form-container {
+    display: flex;
+}
+
+.myName {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 420px;
+}
+
+.home {
+    text-decoration: underline;
+}
+
+.home:hover {
+    text-decoration: none;
 }
 
 button {
-    padding: 10px;
-    background-color: white;
-    border-radius: 10%;
-    font-family: "Kantumruy Pro", serif;
+    background-color: transparent;
+    border: none;
+    font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
-    font-size: 18px;
+    font-size: 24px;
+    margin-top: 60px;
+    padding: 0px 30px;
 }
 
 button:hover {
-    background-color: black;
-    color: #9ED8CE;
-    border-color: white;
-    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    margin-top: 60px;
+    padding: 0px 30px;
+    text-decoration: underline;
 }
 
 body {
-    background-color: #CEF0EA;
+    background-color: #DCECE9;
 }
 
-header {
-    background-color: #9ED8CE;
-    padding: 20px;
-}
-
-footer {
-    background-color: #9ED8CE;
+.hello {
+    display: flex;
+    margin-top: 200px;
 }
 
 h1 {
-    font-family: "Kantumruy Pro", serif;
+    font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: bold;
-    font-size: 50px;
-    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 96px;
+    margin-left: 85px;
+}
+
+.rectangle {
+    width: 425px;
+    height: 542px;
+    transform: rotate(-160deg);
+    background-color: #90BAB3;
+    margin-left: 350px;
+    border-radius: 5px;
+}
+
+.homeImg {
+    object-fit: cover;
+    width: 357px;
+    height: 455px;
+    transform: rotate(160deg);
+    border-radius: 5px;
+    margin-top: 42px;
+    margin-left: 30px;
+}
+
+.horLine {
+    width: 455px;
+    height: 4px;
+    background-color: black;
+    border: black;
+    margin-right: -8px;
+    margin-top: 100px;
 }
 
 h2 {
-    font-family: "Kantumruy Pro", serif;
+    font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
-    text-align: center;
-}
-
-.aboutp {
-    text-align: center;
-    margin-right: 100px;
-    margin-left: 300px;
-    font-family: "Kantumruy Pro", serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 20px;
+    font-size: 36px;
+    text-align: left;
+    margin-left: 950px;
     margin-top: 50px;
 }
 
-.aboutimg {
-    display: flex;
-    align-items: right;
-    margin-right: 300px;
-    margin-bottom: 50px;
+.foot {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    margin-left: 100px;
+    margin-top: 75px;
 }
